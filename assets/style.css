@@ -1,8 +1,13 @@
+body {
+  text-align: center; 
+}
+
 #nav {
   position: fixed; 
   top: 0; 
   width: 100%;  
   background-color: #333;   
+  text-align: left; 
 }
 
 div#nav a {
@@ -18,16 +23,44 @@ div#nav a:hover {
 }
 
 #about {
-  height: 400px; 
+  height: auto; 
   padding-top: 30px; 
   width: 100%; 
   background-color: grey; 
 }
 
-#projects {
-  height: 400px; 
+div#about img, p {
+  display: inline-block;
+  margin: 15px; 
+  vertical-align: text-top; 
+}
+
+div#about p {
+  width: 50%; 
+  text-align: justify; 
+}
+
+h3#projects {
+   
+}
+
+div.projects {
+  height: auto; 
   width: 100%;
   background-color: teal; 
+}
+
+div.project {
+  padding: 10px;
+  display: inline-block;
+  width: 360px;
+  text-align: center;  
+}
+
+div.placeholder {
+  background-color: orange;
+  height: 200px; 
+  width: 360px;  
 }
 
 #contact {
