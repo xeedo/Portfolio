@@ -1,0 +1,48 @@
+#nav {
+  position: fixed; 
+  top: 0; 
+  width: 100%;  
+  background-color: #333;   
+}
+
+div#nav a {
+  display: inline-block; 
+  font-size: 20px; 
+  color: white; 
+  padding: 10px 12px; 
+  text-decoration: none; 
+}
+
+div#nav a:hover {
+  background-color: green; 
+}
+
+#about {
+  height: 400px; 
+  padding-top: 30px; 
+  width: 100%; 
+  background-color: grey; 
+}
+
+#projects {
+  height: 400px; 
+  width: 100%;
+  background-color: teal; 
+}
+
+#contact {
+  height: 400px; 
+  width: 100%;
+  background-color: orange; 
+}
+
+#footer {
+  height: 40px; 
+  width: 100%; 
+  background-color: blue;
+}
+
+#myface {
+  height: 200px; 
+  width: 200px;
+}
