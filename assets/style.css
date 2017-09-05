@@ -12,7 +12,7 @@ body {
 
 div#nav a {
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 3vh;
   color: white;
   padding: 0.625em 0.75em;
   text-decoration: none;
@@ -24,7 +24,7 @@ div#nav a:hover {
 
 div#nav a i {
   margin-right: 0.5em;
-  font-size: 1.125em;
+  font-size: 3vh;
   vertical-align: -15%;
 }
 
@@ -47,7 +47,7 @@ div#about p {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1vh;
   /*font-family: ;*/
 }
 
