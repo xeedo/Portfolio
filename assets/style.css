@@ -1,81 +1,90 @@
 body {
-  text-align: center; 
+  text-align: center;
+  font-size: 1.25em;
 }
 
 #nav {
-  position: fixed; 
-  top: 0; 
-  width: 100%;  
-  background-color: #333;   
-  text-align: left; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
 }
 
 div#nav a {
-  display: inline-block; 
-  font-size: 20px; 
-  color: white; 
-  padding: 10px 12px; 
-  text-decoration: none; 
+  display: inline-block;
+  font-size: 1.1em;
+  color: white;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
 }
 
 div#nav a:hover {
-  background-color: green; 
+  background-color: green;
+}
+
+div#nav a i {
+  margin-right: 0.5em;
+  font-size: 1.1em;
+  vertical-align: -15%;
 }
 
 #about {
-  height: auto; 
-  padding-top: 30px; 
-  width: 100%; 
-  background-color: grey; 
+  height: auto;
+  padding-top: 10px;
+  width: 100%;
+  background-color: grey;
 }
 
 div#about img, p {
   display: inline-block;
-  margin: 15px; 
-  vertical-align: text-top; 
+  margin: 1em;
+  vertical-align: text-top;
 }
 
 div#about p {
-  width: 50%; 
-  text-align: justify; 
+  width: 50%;
+  text-align: justify;
 }
 
-h3#projects {
-   
+h3 {
+  font-size: 1.25em;
+  /*font-family: ;*/
 }
 
-div.projects {
-  height: auto; 
+div#projects {
+  height: auto;
   width: 100%;
-  background-color: teal; 
+  background-color: teal;
 }
 
 div.project {
-  padding: 10px;
+  padding: 0.625em;
+  width: 22.5em;
   display: inline-block;
-  width: 360px;
-  text-align: center;  
+  text-align: center;
 }
 
 div.placeholder {
   background-color: orange;
-  height: 200px; 
-  width: 360px;  
+  height: 12.5em;
+  width: 22.5em;
 }
 
 #contact {
-  height: 400px; 
+  height: 400px;
   width: 100%;
-  background-color: orange; 
+  background-color: orange;
 }
 
 #footer {
-  height: 40px; 
-  width: 100%; 
+  height: 40px;
+  width: 100%;
   background-color: blue;
 }
 
 #myface {
-  height: 200px; 
+  height: 200px;
   width: 200px;
+  border-radius: 5em;
 }
