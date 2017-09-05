@@ -16,7 +16,7 @@ div#nav a {
   display: inline-block;
   font-size: 1.125em;
   color: white;
-  padding: 0.8% 0.8%;
+  padding: 0.625em 0.8%;
   text-decoration: none;
 }
 
@@ -25,9 +25,8 @@ div#nav a:hover {
 }
 
 div#nav a i {
-  margin-right: 5px;
   font-size: 1.125em;
-  vertical-align: -15%;
+  vertical-align: -12%;
 }
 
 #about {
