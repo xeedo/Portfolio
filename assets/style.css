@@ -32,7 +32,6 @@ div#nav a i {
   height: auto;
   padding-top: 10px;
   width: 100%;
-  background-color: grey;
 }
 
 div#about img, p {
@@ -43,7 +42,7 @@ div#about img, p {
 
 div#about p {
   font-size: 1em;
-  width: 50%;
+  width: 70%;
   text-align: justify;
 }
 
@@ -63,7 +62,6 @@ h3 {
 div#projects {
   height: auto;
   width: 100%;
-  background-color: teal;
 }
 
 div.project {
